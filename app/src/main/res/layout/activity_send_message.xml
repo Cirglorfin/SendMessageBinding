@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+        name="message"
+        type="com.example.sendmessagebinding.data.Message" />
+    </data>
+<LinearLayout
+
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iu.SendMessageActivity">
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/etUserMarginTop"
+        android:minHeight="@dimen/etUserMinHeight"
+        android:inputType="text"
+        android:autofillHints=""
+        android:text="@{message.user.name}"
+        android:hint="@string/etUserHint"
+        android:textColorHint="@color/etUserColorHint"/>
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/etMessageMarginTop"
+        android:minHeight="@dimen/etMessageMinHeight"
+        android:inputType="text"
+        android:autofillHints=""
+     android:text="@={message.content}"
+        android:hint="@string/etMessageHint"
+        android:textColorHint="@color/etMessageColorHint"/>
+
+
+    <Button
+        android:id="@+id/btSend"
+        android:layout_width="184dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/btSendMarginTop"
+
+        android:onClick="sendMessage"
+        android:text="@string/btSendMesag" />
+
+</LinearLayout>
+</layout>
