@@ -7,6 +7,6 @@ Durante el desarrollo del proyecto hemos aprendido el ciclo de vida de las activ
 [![zd.jpg](https://i.postimg.cc/G3g1J8PJ/zd.jpg)](https://postimg.cc/mh9qTr5t)
 
 
-[![Captura-de-pantalla-2022-09-24-151040.jpg](https://i.postimg.cc/xCxLtDPC/Captura-de-pantalla-2022-09-24-151040.jpg)](https://postimg.cc/34GyxqV5)
+[![Captura-de-pantalla-2022-10-07-131330.jpg](https://i.postimg.cc/vm6WXSNL/Captura-de-pantalla-2022-10-07-131330.jpg)](https://postimg.cc/wtgyjFH7)
 
 
