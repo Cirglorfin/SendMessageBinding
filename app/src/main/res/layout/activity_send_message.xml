@@ -21,7 +21,7 @@
         android:minHeight="@dimen/etUserMinHeight"
         android:inputType="text"
         android:autofillHints=""
-        android:text="@{message.user.name}"
+        android:text="@={message.user.name}"
         android:hint="@string/etUserHint"
         android:textColorHint="@color/etUserColorHint"/>
     <EditText
